@@ -8,12 +8,9 @@ const App = () => (
   <Router>
     <Routes>
       <Route exact path="/" element={<HomeNews />} />
-      <Route exact path="/News/:id" element={<NewsDetails />} />
+      <Route exact path="/articlesList/:id" element={<NewsDetails />} />
     </Routes>
   </Router>
 );
-
-
-
 
 export default App;
